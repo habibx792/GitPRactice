@@ -11,8 +11,8 @@
     justify-content: space-between;
     align-items: center;
     height: 5vw;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 .nav-list{
     display: flex;
@@ -27,11 +27,15 @@
 .nav-list button{
     margin-right: 1vw;
     padding: .5vw .5vw;
+    background-color: salmon;
+    font-size: 1.5vw;
+    border-radius: 10px;
 
 }
 .nav-list i{
     display: none;
 }
+
 .content{
     height: 90vh;
     display: flex;
@@ -43,6 +47,21 @@
     background-color: red;
     width: 100%;
 }
+.left h2{
+    color: white;
+    text-align: center;
+    padding: 1vw;
+}
+.left h2 span{
+    color: rgb(255, 255, 15);
+}
+.left p{
+    padding: 2vw;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+}
 .right{
     height: 100%;
     background-color: lightseagreen;
@@ -51,6 +70,9 @@
 @media (max-width:600px){
     .nav-list li{
         display: none;
+    }
+    body{
+        height: 100vh;
     }
     .nav-list button{
         display: none;
@@ -63,5 +85,12 @@
     .nav{
        min-height: 6vw;
        font-size: 4vw;
+    }
+    .left{
+        height: 20vh;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
     }
 }
