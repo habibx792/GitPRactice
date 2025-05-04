@@ -67,6 +67,42 @@
     background-color: lightseagreen;
     width: 100%;
 }
+.feedBack{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: gray;
+    align-items:center;
+}
+.main-head{
+    color: white;
+    padding: 1vw;
+    background-color: black;
+    width: 100%;
+    margin-top: 2px;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2vw;
+}
+.form label{
+    font-weight: 800;
+    margin-left: 1vw;
+    padding-right:  1vw;
+    line-height: 2vw;
+    font-size: 2vw;
+}
+.form input{
+    height: 2vw;
+    width: 90%;
+    padding-left: 1vw;
+    font-weight: 700;
+    font-size: 1vw;
+}
 @media (max-width:600px){
     .nav-list li{
         display: none;
