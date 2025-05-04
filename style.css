@@ -11,8 +11,8 @@
     justify-content: space-between;
     align-items: center;
     height: 5vw;
-    color: white;
-    background-color: red;
+    color: black;
+    background-color: white;
 }
 .nav-list{
     display: flex;
@@ -27,4 +27,41 @@
 .nav-list button{
     margin-right: 1vw;
     padding: .5vw .5vw;
+
+}
+.nav-list i{
+    display: none;
+}
+.content{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    height: 100%;
+    background-color: red;
+    width: 100%;
+}
+.right{
+    height: 100%;
+    background-color: lightseagreen;
+    width: 100%;
+}
+@media (max-width:600px){
+    .nav-list li{
+        display: none;
+    }
+    .nav-list button{
+        display: none;
+
+    }
+    .nav-list i{
+        display: block;
+        margin-right: 2vw;
+    }
+    .nav{
+       min-height: 6vw;
+       font-size: 4vw;
+    }
 }
