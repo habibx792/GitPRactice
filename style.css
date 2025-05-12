@@ -90,6 +90,12 @@
     margin-top: 2vw;
     flex-direction: column;
 }
+.inerForm{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
 .form label{
     font-weight: 800;
     margin-left: 1vw;
@@ -122,15 +128,22 @@
     .nav{
        min-height: 6vw;
        font-size: 4vw;
+       padding: 4vw;
     }
     .left{
-        height: 20vh;
+        height: 100%;
+        padding: 2vw;
+    }
+    .right{
+        height: 100%;
+        width: 100%;
     }
     .content{
         display: flex;
         flex-direction: column;
     }
     .feedBack{
-        margin-top: 2vw;
+        margin-top: 40vw;
+
     }
 }
